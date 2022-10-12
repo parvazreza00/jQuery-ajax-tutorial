@@ -2,7 +2,7 @@
 $(document).ready(function(){
     
     $("p").on('click', function(){
-        document.getElementById('p1').innerHTML = "paragraph Changed!";
+        $('#p1').html('<h1>Change paragraph</h1>');
     })
     
 });
